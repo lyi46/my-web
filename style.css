@@ -1,8 +1,9 @@
 /* style.css */
 body {
     font-family: Arial, sans-serif;
-    background-color: #24292e;
-    color: white;
+    background: url('https://github.com/lyi46/my-web/raw/main/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: black;
     margin: 0;
     padding: 0;
 }
