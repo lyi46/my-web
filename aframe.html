@@ -7,7 +7,7 @@
     <a-scene>
       
       <!-- Bed -->
-      <a-box position="4 0.25 -6.5" width="2" height="0.5" depth="1" color="#8B4513"></a-box> <!-- Bed frame -->
+      <a-box position="4 0.25 -6.5" width="2" height="0.5" depth="1" color="#654321"></a-box> <!-- Bed frame -->
       <a-box position="4 0.64 -6.5" width="2" height="0.25" depth="0.9" color="#FFFFFF"></a-box> <!-- Mattress -->
       <a-box position="4.6 0.76 -6.49" width="0.6" height="0.15" depth="0.7" color="#F5F5DC"></a-box> <!-- Pillow -->
 
@@ -18,10 +18,19 @@
       <a-cylinder position="4.7 0.75 -4.5" radius="0.05" height="0.5" color="#FFFFFF"></a-cylinder>
       <a-cone position="4.7 1.0 -4.5" radius-bottom="0.2" radius-top="0.05" height="0.3" color="#FFD700"></a-cone>
 
+      <!-- Rug -->
+      <a-circle position="0.5 0.1 -2.4" radius="1" color="#0B6623" depth="1" rotation="-90 0 0"></a-circle>
+
+      <!-- Wardrobe -->
+      <a-box position="1 1 -6.67" width="1.5" height="2.4" depth="0.5" color="#654321"></a-box> <!-- Wardrobe body -->
+      <a-box position="1 1 -6.67" width="0.05" height="2.4" depth="0.51" color="#000000"></a-box> <!-- Door line -->
+      <a-sphere position="1.25 1.2 -6.4" radius="0.05" color="#000000"></a-sphere> <!-- Left handle -->
+      <a-sphere position="0.75 1.2 -6.4" radius="0.05" color="#000000"></a-sphere> <!-- Right handle -->
+
       <!-- Walls -->
-      <a-plane position="2 2 -7" rotation="0 0 0" width="6" height="4" color="#0096FF"></a-plane>
-      <a-plane position="5 2 -4" rotation="0 -90 0" width="6" height="4" color="#ECECEC"></a-plane>
-      <a-plane position="2 0 -4" rotation="-90 0 0" width="6" height="6" color="#7BC8A4"></a-plane>
+      <a-plane position="2 2 -7" rotation="0 0 0" width="6" height="4" color="#808080"></a-plane>
+      <a-plane position="5 2 -4" rotation="0 -90 0" width="6" height="4" color="#2F4F4F"></a-plane>
+      <a-plane position="2 0 -4" rotation="-90 0 0" width="6" height="6" color="#778899"></a-plane>
 
       <!-- Sky -->
       <a-sky color="#AAAAAA"></a-sky>
