@@ -5,12 +5,27 @@
   </head>
   <body>
     <a-scene>
-      <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
-      <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
-      <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
-      <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
-      <a-plane position="0 4 0" rotation="90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
-      <a-sky color="#ECECEC"></a-sky>      
+      
+      <!-- Bed -->
+      <a-box position="4 0.25 -6.5" width="2" height="0.5" depth="1" color="#8B4513"></a-box> <!-- Bed frame -->
+      <a-box position="4 0.64 -6.5" width="2" height="0.25" depth="0.9" color="#FFFFFF"></a-box> <!-- Mattress -->
+      <a-box position="4.6 0.76 -6.49" width="0.6" height="0.15" depth="0.7" color="#F5F5DC"></a-box> <!-- Pillow -->
+
+      <!-- Nightstand -->
+      <a-box position="1 0.5 -3.5" width="0.5" height="0.5" depth="0.5" color="#654321"></a-box>
+      
+      <!-- Lamp on Nightstand -->
+      <a-cylinder position="1 1.25 -3.5" radius="0.05" height="0.5" color="#FFFFFF"></a-cylinder>
+      <a-cone position="1 1.5 -3.5" radius-bottom="0.2" radius-top="0.05" height="0.3" color="#FFD700"></a-cone>
+
+      <!-- Walls -->
+      <a-plane position="0 2 -7" rotation="0 0 0" width="10" height="4" color="#0096FF"></a-plane>
+      <a-plane position="5 2 -4" rotation="0 -90 0" width="6" height="4" color="#ECECEC"></a-plane>
+      <a-plane position="0 0 -4" rotation="-90 0 0" width="10" height="6" color="#7BC8A4"></a-plane>
+
+      <!-- Sky -->
+      <a-sky color="#AAAAAA"></a-sky>
+
     </a-scene>
   </body>
 </html>
